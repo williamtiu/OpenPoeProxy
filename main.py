@@ -356,8 +356,6 @@ async def list_models():
         {'id': 'GPT-4o', 'object': 'model', 'created': int(time.time()), 'owned_by': 'openai'},
         {'id': 'Gemini-2.0-Pro', 'object': 'model', 'created': int(time.time()), 'owned_by': 'anthropic'},
         {'id': 'FLUX-pro-1.1', 'object': 'model', 'created': int(time.time()), 'owned_by': 'stability'},
-        {'id': 'ElevenLabs', 'object': 'model', 'created': int(time.time()), 'owned_by': 'elevenlabs'},
-        {'id': 'Runway', 'object': 'model', 'created': int(time.time()), 'owned_by': 'runway'},
     ]
     
     return JSONResponse(content={'object': 'list', 'data': models})
@@ -367,5 +365,5 @@ async def list_models():
 # =============================================================================
 if __name__ == "__main__":
     import uvicorn
-    port = int(os.environ.get("PORT", 83))
+    port = int(os.environ.get("PORT", 8000))
     uvicorn.run(app, host="0.0.0.0", port=port)
