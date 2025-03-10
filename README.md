@@ -22,8 +22,8 @@ This repository contains a FastAPI application that serves as an OpenAI-compatib
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/your-github-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/williamtiu/OpenPoeProxy.git
+    cd OpenPoeProxy
     ```
 
 2. **Create a Virtual Environment (Optional but Recommended):**
