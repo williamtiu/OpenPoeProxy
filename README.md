@@ -1,4 +1,4 @@
-# OpenAI-Compatible API Server using Poe API
+# OpenAI-Compatible API Server using Poe API Key
 
 This repository contains a FastAPI application that serves as an OpenAI-compatible API server by proxying requests to the Poe API via the [fastapi_poe](https://github.com/your-org/fastapi_poe) library. It supports both streaming (SSE) and complete JSON responses and includes a simple HTML-based test interface.
 
